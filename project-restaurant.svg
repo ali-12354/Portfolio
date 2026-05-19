@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Restaurant Management System</title>
+  <desc id="desc">A modern cover image for the restaurant management project.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101322"/>
+      <stop offset="50%" stop-color="#14213d"/>
+      <stop offset="100%" stop-color="#1f3c88"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <circle cx="1020" cy="120" r="180" fill="#00d4ff" opacity="0.12"/>
+  <circle cx="180" cy="610" r="220" fill="#7c3aed" opacity="0.12"/>
+  <rect x="260" y="140" width="680" height="430" rx="28" fill="#0f172a" stroke="#2a3557" stroke-width="4"/>
+  <rect x="320" y="205" width="560" height="42" rx="14" fill="#16213e"/>
+  <rect x="320" y="275" width="300" height="230" rx="18" fill="#111827" stroke="#24304d"/>
+  <rect x="652" y="275" width="228" height="108" rx="18" fill="#111827" stroke="#24304d"/>
+  <rect x="652" y="397" width="228" height="108" rx="18" fill="#111827" stroke="#24304d"/>
+  <circle cx="390" cy="318" r="34" fill="url(#accent)" opacity="0.95"/>
+  <rect x="448" y="290" width="130" height="18" rx="9" fill="#e5e7eb" opacity="0.9"/>
+  <rect x="448" y="322" width="82" height="14" rx="7" fill="#94a3b8" opacity="0.85"/>
+  <rect x="448" y="348" width="104" height="14" rx="7" fill="#94a3b8" opacity="0.65"/>
+  <rect x="678" y="308" width="162" height="18" rx="9" fill="#e5e7eb" opacity="0.9"/>
+  <rect x="678" y="340" width="110" height="14" rx="7" fill="#94a3b8" opacity="0.75"/>
+  <rect x="678" y="430" width="118" height="18" rx="9" fill="#e5e7eb" opacity="0.9"/>
+  <rect x="678" y="462" width="86" height="14" rx="7" fill="#94a3b8" opacity="0.75"/>
+  <rect x="410" y="532" width="380" height="26" rx="13" fill="url(#accent)" opacity="0.95"/>
+  <text x="600" y="96" text-anchor="middle" fill="#e8e8f0" font-family="Syne, Arial, sans-serif" font-size="42" font-weight="800">Restaurant Management System</text>
+  <text x="600" y="640" text-anchor="middle" fill="#6b6b80" font-family="DM Sans, Arial, sans-serif" font-size="26">Python • Tkinter • SQLite</text>
+</svg>

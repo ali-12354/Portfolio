@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hospital Management System Gallery</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --surface: #111118;
+    --card: #16161f;
+    --border: #242433;
+    --accent: #00d4ff;
+    --accent2: #7c3aed;
+    --text: #e8e8f0;
+    --muted: #8b8ba3;
+    --white: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    background:
+      radial-gradient(circle at top left, rgba(124,58,237,0.12), transparent 35%),
+      radial-gradient(circle at bottom right, rgba(0,212,255,0.12), transparent 28%),
+      var(--bg);
+    color: var(--text);
+  }
+  .shell {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem 1rem 3rem;
+  }
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem 1.2rem;
+    border: 1px solid var(--border);
+    background: rgba(17,17,24,0.8);
+    backdrop-filter: blur(12px);
+    border-radius: 18px;
+  }
+  .brand {
+    font-family: 'Syne', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: var(--white);
+  }
+  .back {
+    color: var(--text);
+    text-decoration: none;
+    border: 1px solid var(--border);
+    background: rgba(255,255,255,0.03);
+    padding: 0.7rem 1rem;
+    border-radius: 999px;
+    font-weight: 600;
+  }
+  .hero {
+    padding: 1rem 0 1.5rem;
+  }
+  .eyebrow {
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+  }
+  h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(2rem, 4vw, 3.6rem);
+    line-height: 1.05;
+    margin: 0 0 0.75rem;
+    color: var(--white);
+  }
+  .desc {
+    max-width: 760px;
+    color: var(--muted);
+    margin: 0;
+    line-height: 1.7;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  figure {
+    margin: 0;
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    background: var(--card);
+  }
+  figure a { display: block; text-decoration: none; }
+  img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    object-position: top;
+    background: #0d0d14;
+  }
+  figcaption {
+    padding: 1rem;
+  }
+  figcaption strong {
+    display: block;
+    color: var(--white);
+    margin-bottom: 0.25rem;
+    font-family: 'Syne', sans-serif;
+  }
+  figcaption span {
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  .hint {
+    margin-top: 1rem;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+  <div class="shell">
+    <div class="topbar">
+      <div class="brand">Ali Haroon Portfolio</div>
+      <a class="back" href="index (1).html">Back to portfolio</a>
+    </div>
+
+    <section class="hero">
+      <div class="eyebrow">Project 03</div>
+      <h1>Hospital Management System Gallery</h1>
+      <p class="desc">A full screenshot set of the desktop hospital management app so clients can review the login, registration, dashboard, billing, and scheduling screens in one place.</p>
+    </section>
+
+    <section class="gallery">
+      <figure>
+        <a href="Static/Python 3.11 10_22_2025 9_56_19 PM.png" target="_blank" rel="noopener noreferrer">
+          <img src="Static/Python 3.11 10_22_2025 9_56_19 PM.png" alt="Hospital management login screen">
+        </a>
+        <figcaption><strong>Login Screen</strong><span>Entry point for admins and staff.</span></figcaption>
+      </figure>
+      <figure>
+        <a href="Static/Python 3.11 10_22_2025 9_56_56 PM - Copy.png" target="_blank" rel="noopener noreferrer">
+          <img src="Static/Python 3.11 10_22_2025 9_56_56 PM - Copy.png" alt="Hospital patient registration screen">
+        </a>
+        <figcaption><strong>Patient Registration</strong><span>Capture patient details quickly.</span></figcaption>
+      </figure>
+      <figure>
+        <a href="Static/Python 3.11 10_22_2025 9_58_27 PM - Copy.png" target="_blank" rel="noopener noreferrer">
+          <img src="Static/Python 3.11 10_22_2025 9_58_27 PM - Copy.png" alt="Hospital admin dashboard screen">
+        </a>
+        <figcaption><strong>Admin Dashboard</strong><span>Operational overview and controls.</span></figcaption>
+      </figure>
+      <figure>
+        <a href="Static/Python 3.11 10_22_2025 10_00_40 PM.png" target="_blank" rel="noopener noreferrer">
+          <img src="Static/Python 3.11 10_22_2025 10_00_40 PM.png" alt="Hospital billing screen">
+        </a>
+        <figcaption><strong>Billing</strong><span>Invoice and payment workflow.</span></figcaption>
+      </figure>
+      <figure>
+        <a href="Static/Python 3.11 10_22_2025 10_01_56 PM.png" target="_blank" rel="noopener noreferrer">
+          <img src="Static/Python 3.11 10_22_2025 10_01_56 PM.png" alt="Hospital patient dashboard screen">
+        </a>
+        <figcaption><strong>Patient Dashboard</strong><span>Patient-facing information view.</span></figcaption>
+      </figure>
+      <figure>
+        <a href="Static/Python 3.11 10_22_2025 10_02_15 PM - Copy.png" target="_blank" rel="noopener noreferrer">
+          <img src="Static/Python 3.11 10_22_2025 10_02_15 PM - Copy.png" alt="Hospital appointment scheduling screen">
+        </a>
+        <figcaption><strong>Appointment Scheduling</strong><span>Booking and scheduling interface.</span></figcaption>
+      </figure>
+    </section>
+
+    <div class="hint">Tip: click any screenshot to open it full size in a new tab.</div>
+  </div>
+</body>
+</html>
